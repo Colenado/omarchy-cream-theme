@@ -1,0 +1,61 @@
+# Cream — Oklahoma Sooners crimson and cream, light mode.
+# The consolidated Sooners-branded light theme. Paired with cream-friendly
+# warm illustrations in `backgrounds/`.
+#
+# Per the OU brand guide, Oklahoma Cream is reserved for print only, so
+# cream here is the readable terminal/UI foreground on a near-black
+# background — never a solid background fill. Surfaces read lightest to
+# darkest per the Omarchy theme ramp (light mode: background is lightest,
+# darker_* are progressively deeper cream).
+#
+# Sister to `crimson/` (dark). The two share the Sooners crimson + cream
+# palette; cream is the light variant, crimson is the dark variant.
+
+mode = "light"
+
+accent = "#841617"
+# `selection` drives text-selection backgrounds (terminal selection,
+# btop selected_bg, Hermes selection_bg). The default cream variant
+# value of #e8c891 is too close to the cream background for the
+# selection band to be visible (~1.21:1). Use the deep-yellow token
+# so selected text reads against the band (~4:1 near-black-on-amber)
+# and the band itself is clearly distinct from the cream background
+# (~2.5:1).
+selection = "#a8740e"
+muted = "#8a7d65"
+
+background = "#fdf9d8"
+dark_background = "#f3e9be"
+darker_background = "#e8d59c"
+lighter_background = "#fffce6"
+
+# Cream-tinted surfaces for cards/popups that should sit just slightly
+# above the cream base (so they read as elevated cards, not bolted-on).
+surface = "#f5ecd2"
+surface_alt = "#efe2bc"
+
+foreground = "#2a0a0c"
+dark_foreground = "#5a3a30"
+light_foreground = "#3a0e10"
+bright_foreground = "#1a0608"
+
+red = "#841617"
+yellow = "#a8740e"
+orange = "#9c4a0e"
+green = "#3f5a18"
+cyan = "#3a6a6a"
+blue = "#841617"
+magenta = "#5a1820"
+brown = "#7a3a18"
+
+bright_red = "#a52829"
+bright_yellow = "#c8881a"
+bright_green = "#5a7a28"
+bright_cyan = "#5a8a8a"
+bright_blue = "#c4383a"
+bright_magenta = "#7a2a35"
+
+# Hyprland-style gradient for the active border.
+# Burgundy-to-bright-burgundy so cream windows stand out against the
+# wallpaper while keeping the warm accent as the active edge.
+hyprland_active_border = "rgba(132,22,23,0.9) rgba(196,56,58,0.95) 45deg"

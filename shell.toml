@@ -1,0 +1,99 @@
+# Per-section overrides for the Cream theme.
+# Light mode. Every surface is cream-tinted with burgundy accents and
+# warm near-black foreground. The wallpaper is a warm illustration so
+# cream windows stand out cleanly against its tones.
+
+[bar]
+# Cream bar, dark crimson text, crimson border + accent line below.
+background       = "#fdf9d8"
+background-alpha = 1.0
+text             = "#2a0a0c"
+active           = "#841617"
+border           = "#841617"
+border-width     = 2
+
+[popups]
+background = "#f5ecd2"
+text       = "#2a0a0c"
+placeholder = "#8a7d65"
+border     = "#841617"
+
+[notifications]
+background = "#f5ecd2"
+text       = "#2a0a0c"
+placeholder = "#8a7d65"
+border     = "#841617"
+
+[menu]
+background            = "#f5ecd2"
+text                  = "#2a0a0c"
+placeholder           = "#8a7d65"
+border                = "#841617"
+# Selected-row highlight for menus (Super+Space launcher, omarchy-menu,
+# btop selected_bg, etc.). The default `shell.toml.tpl` derives
+# selected-background from `foreground` at 8% alpha, which is far too
+# faint against the cream background — the highlight blends into the
+# panel fill. Use a much stronger near-black deepening tint with a
+# crimson gradient border, and switch selected-text to crimson so the
+# row reads as selected even before the eye finds the side border.
+# 0.32 alpha gives an effective fill of ~#c8b894, clearly distinct
+# from the unselected cream panel (#f5ecd2).
+selected-background       = "rgba(58,8,10,0.90)"
+selected-background-alpha = 1.0
+# Selected-text must be LIGHT to read against the dark deepening tint.
+# Use bright cream — same family as the unselected foreground but pushed
+# slightly more golden for distinction.
+selected-text             = "#f3e9d2"
+selected-border           = "rgba(132,22,23,0.9) rgba(196,56,58,0.95) 45deg"
+selected-border-alpha     = 0.95
+selected-border-width     = "1 1 1 4"
+
+[tooltip]
+background = "#f5ecd2"
+text       = "#2a0a0c"
+
+[launcher]
+background = "#f5ecd2"
+text       = "#2a0a0c"
+border     = "#841617"
+
+[polkit]
+text   = "#2a0a0c"
+border = "#841617"
+
+[image-picker]
+background = "#f5ecd2"
+text       = "#2a0a0c"
+border     = "#841617"
+
+[lock]
+background              = "#fdf9d8"
+text                    = "#2a0a0c"
+placeholder             = "#8a7d65"
+border-active           = "rgba(132,22,23,0.9) rgba(196,56,58,0.95) 45deg"
+border-active-width-left = 6
+
+[controls]
+# Light-mode controls: dark-crimson foreground fills (low alpha so the
+# cream surface shows through), crimson borders, crimson focus ring.
+normal-color        = "#2a0a0c"
+normal-fill-alpha   = 0.04
+normal-border       = "#841617"
+normal-border-width = 1
+normal-border-alpha = 0.4
+
+hover-cursor-color        = "#841617"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "#841617"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.7
+
+focus-color        = "#841617"
+focus-fill-alpha   = 0.10
+focus-border       = "rgba(132,22,23,0.9) rgba(196,56,58,0.95) 45deg"
+focus-border-width = 2
+
+selected-color        = "#841617"
+selected-fill-alpha   = 0.18
+selected-border       = "#841617"
+selected-border-width = 1

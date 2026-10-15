@@ -1,0 +1,15 @@
+# Theme switcher caches (lives outside the theme dir but worth knowing)
+# ~/.cache/omarchy/theme-selector/signature
+# ~/.cache/omarchy/theme-selector/fast-signature
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Don't commit regenerated previews if you ever add a regenerate script
+# (uncomment if you want preview.png to be generated on install instead)
+/preview.png
