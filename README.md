@@ -29,6 +29,12 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 | `3` | `3-the-hunt.jpg` | Outdoor photography: The Hunt |
 | `4` | `4-wind-sweeping.jpg` | Outdoor photography: Wind Sweeping |
 
+<img src="backgrounds/0-noodling.jpg" alt="0 — Noodling illustration" width="480">
+<img src="backgrounds/1-crappie-time.jpg" alt="1 — Crappie Time" width="480">
+<img src="backgrounds/2-spoonbill.jpg" alt="2 — Spoonbill" width="480">
+<img src="backgrounds/3-the-hunt.jpg" alt="3 — The Hunt" width="480">
+<img src="backgrounds/4-wind-sweeping.jpg" alt="4 — Wind Sweeping" width="480">
+
 Add more by dropping `<n>-<name>.<ext>` files into `backgrounds/`.
 The warm-red + cream palette pairs naturally with any warm
 illustration (cream sky / golden plains / burgundy mountains). Pair
