@@ -37,9 +37,7 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 
 Add more by dropping `<n>-<name>.<ext>` files into `backgrounds/`.
 The warm-red + cream palette pairs naturally with any warm
-illustration (cream sky / golden plains / burgundy mountains). Pair
-intro videos by basename in `backgrounds/intros/` (e.g.
-`intros/0-noodling.mp4`).
+illustration (cream sky / golden plains / burgundy mountains).
 
 ## Palette
 
@@ -83,9 +81,6 @@ ratios against `background`:
   `3-the-hunt.jpg`, `4-wind-sweeping.jpg` — outdoor photography set.
   Active image is the `~/.local/state/omarchy/current/background`
   symlink.
-- `backgrounds/intros/` — empty; add matching `0-noodling.<ext>`
-  intro videos here to pair with the wallpaper (see
-  `default/themed/*.tpl`).
 
 ## What's intentionally NOT shipped
 
