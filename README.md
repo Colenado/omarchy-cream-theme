@@ -2,8 +2,9 @@
 
 Light theme for Omarchy, the consolidated Oklahoma Sooners-branded
 light mode. Cream surfaces, warm near-black foreground, OU Crimson
-border. Pairs warm illustrations (`backgrounds/0-noodling.jpg` and
-future additions) with the Sooners crimson + cream palette.
+border. Pairs warm illustrations (`backgrounds/0-noodling.jpg` and the
+outdoor photography set in `backgrounds/1-*.jpg`…`4-*.jpg`) with the
+Sooners crimson + cream palette.
 
 The palette is anchored on **OU Crimson** (`#841617`) as the accent,
 with cream surfaces (`#fdf9d8` → `#fffce6`) and warm near-black
@@ -25,6 +26,10 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 | Index | File | Source |
 |-------|------|--------|
 | `0` | `0-noodling.jpg` | Noodling illustration: two figures with a fish in a winding river at sunset |
+| `1` | `1-crappie-time.jpg` | Outdoor photography: Crappie Time |
+| `2` | `2-spoonbill.jpg` | Outdoor photography: Spoonbill |
+| `3` | `3-the-hunt.jpg` | Outdoor photography: The Hunt |
+| `4` | `4-wind-sweeping.jpg` | Outdoor photography: Wind Sweeping |
 
 Add more by dropping `<n>-<name>.<ext>` files into `backgrounds/`.
 The Sooners crimson + cream palette pairs naturally with any warm
@@ -70,6 +75,8 @@ ratios against `background`:
 - `icons.theme` — `Yaru-red` (closest stock icon theme to the crimson
   accent).
 - `backgrounds/0-noodling.jpg` — the Noodling illustration wallpaper.
+- `backgrounds/1-crappie-time.jpg`, `2-spoonbill.jpg`,
+  `3-the-hunt.jpg`, `4-wind-sweeping.jpg` — outdoor photography set.
   Active image is the `~/.local/state/omarchy/current/background`
   symlink.
 - `backgrounds/intros/` — empty; add matching `0-noodling.<ext>`
@@ -94,7 +101,7 @@ source of truth — see `docs/theming.md` in the Omarchy repo.
 ## Install
 
 ```
-omarchy theme install https://github.com/<you>/omarchy-theme-cream.git
+omarchy theme install Colenado/cream
 omarchy theme set cream
 omarchy theme bg next   # cycle through wallpapers as you add them
 ```
@@ -108,8 +115,9 @@ omarchy theme set cream
 
 ## Credits
 
-- Wallpaper: Noodling illustration (user-supplied; ensure you have
-  the right to redistribute it before shipping).
+- Wallpapers: Noodling illustration + the Crappie Time, Spoonbill,
+  The Hunt, and Wind Sweeping photography set (user-supplied; ensure
+  you have the right to redistribute them before shipping).
 - Palette: originally adapted from the University of Oklahoma brand
   guide; cream/burgundy pairing is widely compatible with warm
   illustration art.
