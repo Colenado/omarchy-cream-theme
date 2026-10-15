@@ -100,7 +100,7 @@ source of truth — see `docs/theming.md` in the Omarchy repo.
 ## Install
 
 ```
-omarchy theme install Colenado/cream
+omarchy theme install Colenado/omarchy-cream-theme
 omarchy theme set cream
 omarchy theme bg next   # cycle through wallpapers as you add them
 ```
