@@ -1,14 +1,13 @@
-# Cream — Oklahoma Sooners crimson and cream, light mode.
-# The consolidated Sooners-branded light theme. Paired with cream-friendly
-# warm illustrations in `backgrounds/`.
+# Cream — warm-red and cream, light mode.
+# The light variant. Paired with cream-friendly warm illustrations in
+# `backgrounds/`.
 #
-# Per the OU brand guide, Oklahoma Cream is reserved for print only, so
-# cream here is the readable terminal/UI foreground on a near-black
+# Cream is reserved for readable terminal/UI foreground on a near-black
 # background — never a solid background fill. Surfaces read lightest to
 # darkest per the Omarchy theme ramp (light mode: background is lightest,
 # darker_* are progressively deeper cream).
 #
-# Sister to `crimson/` (dark). The two share the Sooners crimson + cream
+# Sister to `crimson/` (dark). The two share the warm-red + cream
 # palette; cream is the light variant, crimson is the dark variant.
 
 mode = "light"

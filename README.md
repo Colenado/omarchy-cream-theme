@@ -1,19 +1,17 @@
 # Cream
 
-Light theme for Omarchy, the consolidated Oklahoma Sooners-branded
-light mode. Cream surfaces, warm near-black foreground, OU Crimson
-border. Pairs warm illustrations (`backgrounds/0-noodling.jpg` and the
-outdoor photography set in `backgrounds/1-*.jpg`…`4-*.jpg`) with the
-Sooners crimson + cream palette.
+Light theme for Omarchy. Cream surfaces, warm near-black foreground,
+warm-red border. Pairs warm illustrations (`backgrounds/0-noodling.jpg`
+and the outdoor photography set in `backgrounds/1-*.jpg`…`4-*.jpg`)
+with a cream + warm-red palette.
 
-The palette is anchored on **OU Crimson** (`#841617`) as the accent,
+The palette is anchored on a deep warm red (`#841617`) as the accent,
 with cream surfaces (`#fdf9d8` → `#fffce6`) and warm near-black
 foregrounds (`#2a0a0c` → `#1a0608`). The Hyprland active-border uses a
-crimson-to-bright-crimson gradient that picks up the burgundy tones
+warm-red-to-bright-warm-red gradient that picks up the burgundy tones
 in warm illustration art without going neon.
 
-Per the OU brand guide, **Oklahoma Cream is reserved for print only**,
-so cream appears here as readable terminal/UI foreground on the
+Cream is reserved here as readable terminal/UI foreground on the
 near-black `accent`-tinted near-black foreground — never as a solid
 background fill. Surfaces read lightest to darkest per the Omarchy
 theme ramp (light mode: background is lightest, `darker_*` are
@@ -32,7 +30,7 @@ Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`
 | `4` | `4-wind-sweeping.jpg` | Outdoor photography: Wind Sweeping |
 
 Add more by dropping `<n>-<name>.<ext>` files into `backgrounds/`.
-The Sooners crimson + cream palette pairs naturally with any warm
+The warm-red + cream palette pairs naturally with any warm
 illustration (cream sky / golden plains / burgundy mountains). Pair
 intro videos by basename in `backgrounds/intros/` (e.g.
 `intros/0-noodling.mp4`).
@@ -41,7 +39,7 @@ intro videos by basename in `backgrounds/intros/` (e.g.
 
 | Role | Hex |
 |------|-----|
-| `accent` (crimson) | `#841617` |
+| `accent` (warm red) | `#841617` |
 | `foreground` | `#2a0a0c` |
 | `bright_foreground` | `#1a0608` |
 | `background` | `#fdf9d8` |
@@ -56,7 +54,7 @@ orange/green/cyan/blue/magenta/brown + bright variants). Contrast
 ratios against `background`:
 
 - `foreground` against `background` ≈ 12:1 (WCAG AAA)
-- `accent` (crimson) against `background` ≈ 6:1 (WCAG AA normal text)
+- `accent` (warm red) against `background` ≈ 6:1 (WCAG AA normal text)
 - `bright_foreground` against `background` ≈ 13:1 (WCAG AAA)
 
 ## Sister themes
@@ -64,7 +62,7 @@ ratios against `background`:
 | Theme | Mode | Wallpapers |
 |-------|------|------------|
 | `cream/` | light | warm cream/burgundy illustrations |
-| `crimson/` | dark | pixel-art OU Stadium, SoonerRun, OkieLandscape, OU Stadium photo |
+| `crimson/` | dark | pixel-art stadium, wagons-at-sunset, poster art, stadium photo |
 
 ## What's shipped
 
@@ -72,7 +70,7 @@ ratios against `background`:
 - `shell.toml` — overrides for the bar, notifications, menu, lock,
   polkit, launcher, and image-picker sections only. Everything else
   is generated from `default/themed/shell.toml.tpl`.
-- `icons.theme` — `Yaru-red` (closest stock icon theme to the crimson
+- `icons.theme` — `Yaru-red` (closest stock icon theme to the warm-red
   accent).
 - `backgrounds/0-noodling.jpg` — the Noodling illustration wallpaper.
 - `backgrounds/1-crappie-time.jpg`, `2-spoonbill.jpg`,
@@ -118,6 +116,5 @@ omarchy theme set cream
 - Wallpapers: Noodling illustration + the Crappie Time, Spoonbill,
   The Hunt, and Wind Sweeping photography set (user-supplied; ensure
   you have the right to redistribute them before shipping).
-- Palette: originally adapted from the University of Oklahoma brand
-  guide; cream/burgundy pairing is widely compatible with warm
+- Palette: warm-red + cream pairing is widely compatible with warm
   illustration art.
