@@ -17,6 +17,8 @@ background fill. Surfaces read lightest to darkest per the Omarchy
 theme ramp (light mode: background is lightest, `darker_*` are
 progressively deeper cream).
 
+![preview](preview.png)
+
 ## Wallpapers
 
 Cycle with `omarchy theme bg next` or pin one with `omarchy theme bg set <path>`:
